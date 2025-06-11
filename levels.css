@@ -64,3 +64,8 @@
     grid-area: 3/2/4/5;
   }
 }
+
+#level-6 {
+  grid-template-columns: repeat(auto-fill, minmax(5rem, auto));
+  grid-auto-rows: 5rem;
+}
